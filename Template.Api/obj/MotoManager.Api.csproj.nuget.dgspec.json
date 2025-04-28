@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Api\\MotoManager.Api.csproj": {}
+    "C:\\Projetos .Net\\MotoManager\\Template.Api\\MotoManager.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Api\\MotoManager.Api.csproj": {
+    "C:\\Projetos .Net\\MotoManager\\Template.Api\\MotoManager.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Api\\MotoManager.Api.csproj",
+        "projectUniqueName": "C:\\Projetos .Net\\MotoManager\\Template.Api\\MotoManager.Api.csproj",
         "projectName": "MotoManager.Api",
-        "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Api\\MotoManager.Api.csproj",
+        "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Api\\MotoManager.Api.csproj",
         "packagesPath": "C:\\Users\\luksf\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Api\\obj\\",
+        "outputPath": "C:\\Projetos .Net\\MotoManager\\Template.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,14 +34,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
               },
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj"
               },
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
+    "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
         "projectName": "MotoManager.Domain",
-        "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
+        "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
         "packagesPath": "C:\\Users\\luksf\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\obj\\",
+        "outputPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -167,14 +167,14 @@
         }
       }
     },
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
+    "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj",
+        "projectUniqueName": "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj",
         "projectName": "MotoManager.Infra",
-        "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj",
+        "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj",
         "packagesPath": "C:\\Users\\luksf\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\obj\\",
+        "outputPath": "C:\\Projetos .Net\\MotoManager\\Template.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -197,8 +197,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
               }
             }
           }
@@ -259,14 +259,14 @@
         }
       }
     },
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj": {
+    "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
+        "projectUniqueName": "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
         "projectName": "MotoManager.IOC",
-        "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
+        "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
         "packagesPath": "C:\\Users\\luksf\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\obj\\",
+        "outputPath": "C:\\Projetos .Net\\MotoManager\\Template.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -289,11 +289,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj"
               },
-              "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
-                "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj"
+              "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj": {
+                "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Infra\\MotoManager.Infra.csproj"
               }
             }
           }

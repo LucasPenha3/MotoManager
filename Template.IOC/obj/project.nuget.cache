@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BVd3e0sb03CLRslgvniPcp/bDo70QuxNgpDC3sjP3gFbmBZVoxVjdE/UVnhemCie60dQ1CrECnItZkGYz3u8LQ==",
+  "dgSpecHash": "Q6VtGEV/s0CJQoKMtztzRKiJhcji7pSzK8wUfiUFtTRp1HhqoumSkFosb6HemcoJ3nfBk640EfNbZttntkDoXA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
+  "projectFilePath": "C:\\Projetos .Net\\MotoManager\\Template.IOC\\MotoManager.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luksf\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\luksf\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

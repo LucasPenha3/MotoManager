@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {}
+    "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
+    "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
         "projectName": "MotoManager.Domain",
-        "projectPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
+        "projectPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\MotoManager.Domain.csproj",
         "packagesPath": "C:\\Users\\luksf\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Domain\\obj\\",
+        "outputPath": "C:\\Projetos .Net\\MotoManager\\Template.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

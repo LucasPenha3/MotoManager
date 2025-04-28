@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4qU3hVFSjL3J9WvMslMifNT605OXpSiQT/87Jqq3JEoIJspm8kn1znV0YAxHxQHtVgOIm725aWT2KTrhfUavvA==",
+  "dgSpecHash": "VUdpTPUMTWztk/wlbuFYfK22v4PTV3yaTDA7/NWItnwNxYWQKAbIUjk3+qoRN2OS6laaVou8xj2V6ZmXQBQLnA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos .Net\\Mottu pecas\\MotoManager\\Template.Tests\\MotoManager.Tests.csproj",
+  "projectFilePath": "C:\\Projetos .Net\\MotoManager\\Template.Tests\\MotoManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luksf\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\luksf\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",

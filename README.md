@@ -1,7 +1,6 @@
 # Api-Dot-Net
 
-Desenvolvida em .Net6 - Essa API é apenas uma estrutura a ser usado em projetos.
-O "projeto futuro" que a utilizar já iniciara com a arquitura e padrões de maneira simples porém com conceitos utilizados em projetos de grande porte.
+Desenvolvida em .Net6 - Projeto de gerenciamento de motos e locações.
 
 ARQUITETUTA e PADRÕES
  - Domain Drive Design - DDD
@@ -9,21 +8,22 @@ ARQUITETUTA e PADRÕES
  - Inversion of Control (IOC)
  - Depency Injection
  - Clean Code / SOLID
- - DTO / Entidades
+ - DTO / Domains
  - Repository Pattern
- - Testes unitários (entrada, fake repositories, rgr, etc)
- - Authentication / Authorization via JWT
+ - Testes unitários (Ainda em desenvolvimento)
  - Design By Contracts / domain notifications
+ - Mensageria (SQS - Ainda em desenvolvimento)
 
 PACOTES
- - EFCore - ORM principal
- - EFCore inMemory - validações iniciais
+ - Dapper - ORM Principal
  - Flunt - Validações
- - JwtBearear
+
+Banco de dados
+ - PostgresSQL
+
+Documentação
+ - Swagger
 
  
 # Configuração inicial:
-A Api conta com autenticação via JWT do Google, mas é possível criar um endpoint para criação do JWT e alterar as configs.
-
-O Endponit /Healthz é a porta de entrada da API.<br>
-Para inciar os trabalhos com banco de dados basta alterar o arquivo `appsettings.json` adicionando sua ConnectionString.
+Para inciar os trabalhos com banco de dados basta alterar o arquivo `appsettings.json` adicionando sua ConnectionString correta.
