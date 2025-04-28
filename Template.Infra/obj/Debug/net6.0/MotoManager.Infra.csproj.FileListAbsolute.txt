@@ -1,0 +1,17 @@
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Infra.deps.json
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Infra.runtimeconfig.json
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Infra.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Infra.pdb
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Domain.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\bin\Debug\net6.0\MotoManager.Domain.pdb
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.csproj.AssemblyReference.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.AssemblyInfoInputs.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.AssemblyInfo.cs
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.csproj.CopyComplete
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\refint\MotoManager.Infra.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.pdb
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\MotoManager.Infra.genruntimeconfig.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Infra\obj\Debug\net6.0\ref\MotoManager.Infra.dll

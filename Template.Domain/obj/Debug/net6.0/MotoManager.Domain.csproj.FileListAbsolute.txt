@@ -1,0 +1,12 @@
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\bin\Debug\net6.0\MotoManager.Domain.deps.json
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\bin\Debug\net6.0\MotoManager.Domain.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\bin\Debug\net6.0\MotoManager.Domain.pdb
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.csproj.AssemblyReference.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.AssemblyInfoInputs.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.AssemblyInfo.cs
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\refint\MotoManager.Domain.dll
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\MotoManager.Domain.pdb
+C:\Projetos .Net\Mottu pecas\MotoManager\Template.Domain\obj\Debug\net6.0\ref\MotoManager.Domain.dll
