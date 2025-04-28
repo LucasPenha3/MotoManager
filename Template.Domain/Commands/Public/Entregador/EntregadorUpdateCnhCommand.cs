@@ -7,13 +7,13 @@ namespace MotoManager.Domain.Commands.Public.Entregador
     public class EntregadorUpdateCnhCommand : Notifiable<Notification>, ICommand
     {
         
-        public string FotoCnh { get; set; }
+        public string FotoCnhBase64 { get; set; }
 
         public void Validate()
         {
             AddNotifications(new Contract<Notification>()
                 .Requires()
-                .IsNotNullOrEmpty(FotoCnh, nameof(FotoCnh), "Foto é obrigatório"));
+                .IsNotNullOrEmpty(FotoCnhBase64, nameof(FotoCnhBase64), "Foto é obrigatório"));
         }
     }
 }

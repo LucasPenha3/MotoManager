@@ -46,6 +46,7 @@ namespace MotoManager.IOC
             // Infra Data Queries
             services.AddTransient<IMotoQuery, MotoQuery>();
             services.AddTransient<ILocacaoQuery, LocacaoQuery>();
+            services.AddTransient<IPlanoQuery, PlanoQuery>();
 
             // infra services
             services.AddScoped<IFileService, FileService>();

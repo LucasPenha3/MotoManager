@@ -14,11 +14,14 @@ namespace MotoManager.Domain.Commands.Public.Locacao
 
         public void Validate()
         {
-            if (DataInicio == null || DataInicio > DataInicio.AddDays(1).AddHours(23))
+            if (DataInicio == null || DataInicio.Date > DataInicio.Date.AddDays(1))
                 AddNotification(nameof(DataInicio), "Data de inicio deve ser obrigatoriamente amanhã");
 
             if (DataPrevisaoTermino == null)
                 AddNotification(nameof(DataInicio), "Data de previsão deve ser informada");
+
+            if (DataPrevisaoTermino.Date <= DateTime.Now.Date)
+                AddNotification(nameof(DataInicio), "Data de previsão deve ser maior que a data de hoje");
 
             AddNotifications(new Contract<Notification>()
                 .Requires()

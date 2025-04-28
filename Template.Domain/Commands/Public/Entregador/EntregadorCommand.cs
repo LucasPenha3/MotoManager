@@ -7,7 +7,6 @@ namespace MotoManager.Domain.Commands.Public.Entregador
 {
     public class EntregadorCreateCommand : Notifiable<Notification>, ICommand
     {
-        public int Identificador { get; set; }
         public string Nome { get; set; }
         public string Cnpj { get; set; }
         public string NumeroCnh { get; set; }
@@ -18,7 +17,6 @@ namespace MotoManager.Domain.Commands.Public.Entregador
         {
             AddNotifications(new Contract<Notification>()
                 .Requires()
-                .IsGreaterThan(Identificador, 0,nameof(Identificador), "Identificador é obrigatório")
                 .IsNotNullOrEmpty(Nome, nameof(Nome), "Nome é obrigatório")
                 .IsNotNullOrEmpty(Cnpj, nameof(Cnpj), "CNPJ é obrigatório")
                 .IsNotNullOrEmpty(NumeroCnh, nameof(NumeroCnh), "Numero da CNH é obrigatório"));

@@ -62,7 +62,7 @@ namespace MotoManager.Domain.Handlers.Motos
         private Entregador ConvertCommandToDomain(EntregadorCreateCommand command)
         {
             return new Entregador(
-                codigo: command.Identificador,
+                codigo: 0,
                 nome: command.Nome,
                 cnpj: command.Cnpj,
                 cnh: command.NumeroCnh,

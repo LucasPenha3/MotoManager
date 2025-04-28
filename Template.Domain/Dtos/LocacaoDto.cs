@@ -13,6 +13,7 @@ namespace MotoManager.Domain.Dtos
         public DateTime DataPrevisaoTermino { get; set; }
         public DateTime? DataDevolucao { get; set; }
         public MotoDto MotoAlugada { get; set; }
+        public MultaLocacaoDto Multa { get; set; }
 
         public static implicit operator LocacaoDto(Locacao locacao)
         {
@@ -25,9 +26,24 @@ namespace MotoManager.Domain.Dtos
                 DataInicio = locacao.DataInicio,
                 DataPrevisaoTermino = locacao.DataPrevisaoTermino,
                 DataTermino = locacao.DataTermino,
-                MotoAlugada = (MotoDto)locacao.Moto
+                MotoAlugada = (MotoDto)locacao.Moto,
+                Multa = (MultaLocacaoDto)locacao.GetMulta()
             };
         }
 
+        public class MultaLocacaoDto
+        {
+            public decimal Multa { get; set; }
+            public decimal AdicionalDiaria { get; set; }
+
+            public static implicit operator MultaLocacaoDto(MultaLocacao multa)
+            {
+                return new MultaLocacaoDto
+                {
+                    Multa = multa.Multa,
+                    AdicionalDiaria = multa.AdicionalDiaria,
+                };
+            }
+        }
     }
 }

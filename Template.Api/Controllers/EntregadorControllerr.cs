@@ -39,7 +39,7 @@ namespace MotoManager.Api.Controllers
             [FromServices] IHandler<EntregadorUpdateCommand> handler,
             CancellationToken cancellationToken = default)
         {
-            var commandUpdate = new EntregadorUpdateCommand(id, command.FotoCnh);
+            var commandUpdate = new EntregadorUpdateCommand(id, command.FotoCnhBase64);
 
             var result = await handler.Handle(commandUpdate, cancellationToken);
 

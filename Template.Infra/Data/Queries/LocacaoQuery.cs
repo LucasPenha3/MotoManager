@@ -9,11 +9,13 @@ namespace MotoManager.Infra.Data.Queries
     {
         private readonly GenericRepository _repository;
         private readonly IMotoQuery _motoQuery;
+        private readonly IPlanoQuery _planoQuery;
 
-        public LocacaoQuery(GenericRepository repository, IMotoQuery motoQuery)
+        public LocacaoQuery(GenericRepository repository, IMotoQuery motoQuery, IPlanoQuery planoQuery)
         {
             _repository = repository;
             _motoQuery = motoQuery;
+            _planoQuery = planoQuery;
         }
 
         public async Task<List<LocacaoDto>> GetLocacoes(CancellationToken cancellationToken = default)
@@ -37,10 +39,12 @@ namespace MotoManager.Infra.Data.Queries
                 return null;
 
             var motos = await _motoQuery.GetMotosByid(locacoes.Select(x => x.CodigoMoto).ToArray(), cancellationToken);
+            var planos = await _planoQuery.GetPlanosById(locacoes.Select(x => x.CodigoPlano).ToArray(), cancellationToken);
 
             foreach (var locacao in locacoes)
             {
                 locacao.SetMoto(motos.FirstOrDefault(x => x.Identificador == locacao.CodigoMoto));
+                locacao.SetPlano(planos.FirstOrDefault(x => x.Codigo == locacao.CodigoPlano));
                 // Aqui faltou entregador e plano
             }
 
